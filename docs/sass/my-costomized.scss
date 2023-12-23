@@ -1,0 +1,18 @@
+// costum variables
+//$warning : rgb(120, 249, 88);
+
+// import the functions $ variables
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-them-colors: (
+    "light-yellow" : rgb(249, 206, 88),
+    "dark-purple" : rgba(91, 19, 122, 0.267),
+    "light-green" : rgb(63, 198, 130)
+);
+
+$theme-colors: map-merge($custom-them-colors, $theme-colors);
+
+// import bootstrap 
+@import '../node_modules/bootstrap/scss/bootstrap';
