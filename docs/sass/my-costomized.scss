@@ -12,7 +12,11 @@ $custom-them-colors: (
     "dark-purple" : rgba(91, 19, 122, 0.267),
     "light-green" : rgb(63, 198, 130),
     "oil-blue" : #5B8F8F,
-    "dark-oil-blue" : #6b8fa5
+    "dark-oil-blue" : #6b8fa5,
+    "card1" : #f6d6d6,
+    "card2" : #F6F7C4,
+    "card3" : #A1EEBD,
+    "card4" : #7BD3EA
 );
 
 $theme-colors: map-merge($custom-them-colors, $theme-colors);
