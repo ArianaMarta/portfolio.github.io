@@ -8,6 +8,7 @@ $navbar-dark-color: #5B8F8F;
 
 $custom-them-colors: (
     "light-yellow" : #faebad,
+    "more-light" : #f2e8bf,
     "dark-purple" : rgba(91, 19, 122, 0.267),
     "light-green" : rgb(63, 198, 130),
     "oil-blue" : #5B8F8F,
@@ -15,6 +16,7 @@ $custom-them-colors: (
 );
 
 $theme-colors: map-merge($custom-them-colors, $theme-colors);
+
 
 // import bootstrap 
 @import '../node_modules/bootstrap/scss/bootstrap';
