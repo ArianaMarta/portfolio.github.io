@@ -1,7 +1,9 @@
 // costum variables
 //$warning : rgb(120, 249, 88);
-$navbar-dark-color: #5B8F8F;
 // import the functions $ variables
+
+$navbar-dark-color: #3498db; // You can set any color you prefer
+
 
 @import "../node_modules/bootstrap/scss/_functions";
 @import "../node_modules/bootstrap/scss/_variables";
@@ -22,6 +24,9 @@ $custom-them-colors: (
 );
 
 $theme-colors: map-merge($custom-them-colors, $theme-colors);
+
+
+//$navbar-light-color: #5B8F8F;
 
 // import bootstrap 
 @import '../node_modules/bootstrap/scss/bootstrap';
