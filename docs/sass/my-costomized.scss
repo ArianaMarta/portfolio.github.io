@@ -15,8 +15,10 @@ $custom-them-colors: (
     "dark-oil-blue" : #6b8fa5,
     "card1" : #f6d6d6,
     "card2" : #F6F7C4,
-    "card3" : #A1EEBD,
-    "card4" : #7BD3EA
+    "card3" : #c3f7d7,
+    "card4" : #b9effd,
+    "darker-red" : #f96464,
+    "darker-green" : #297c49
 );
 
 $theme-colors: map-merge($custom-them-colors, $theme-colors);

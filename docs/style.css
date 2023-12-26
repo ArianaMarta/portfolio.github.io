@@ -18,6 +18,18 @@
     height: 100%;
 }
 
+.me-img-container{
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.me-img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+
 .img-container-card{
     margin: auto;
     width: 315px;
@@ -29,6 +41,12 @@
     height: 100%;
 }
 
+.container-card{
+    margin: auto;
+    width: 1000px;
+    height: auto;
+}
+
 .carousel-control-next-icon {
     filter: invert(1);  /*Invert the color to make it dark */
 }
@@ -36,3 +54,5 @@
 .carousel-control-prev-icon {
     filter: invert(1);  /*Invert the color to make it dark */
 }
+
+

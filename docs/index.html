@@ -29,7 +29,7 @@
                         <a href="#aboutme" class="nav-link">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacts" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -56,14 +56,14 @@
 
     <!-- Cards -->
 
-    <section class="p-5 bg-light">
-        <div class="container">
+    <section id="portfolio" class="p-5 bg-light">
+        <div class="container-card">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card border-danger">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/fablab_logo_2.png" class="card-img-top" alt="...">
                         <div class="card-body bg-card1 text-center">
-                            <h5 class="card-title">Digital Fabrication</h5>
+                            <h5 class="card-title text-danger">Digital Fabrication</h5>
                             <p class="card-text">Here i show some of my designs and work i did during Digital Fabrication Minor in Fablab, Aalto University.</p>
                             <a href="df-card1.html" class="btn btn-danger">Find More</a>
                         </div>
@@ -71,31 +71,31 @@
                 </div>
                 <div class="col">
                     <div class="card border-warning">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/3Danimation.png" class="card-img-top" alt="...">
                         <div class="card-body bg-card2 text-center">
-                            <h5 class="card-title">3D Animation</h5>
+                            <h5 class="card-title text-warning">3D Animation</h5>
                             <p class="card-text">Here i show the 3D short animation movie i made during the 3D Animation minor i did in Aalto University.</p>
-                            <a href="#ani-card2.html" class="btn btn-warning">Find More</a>
+                            <a href="ani-card2.html" class="btn btn-warning">Find More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-success">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/vertical_farm_1.png" class="card-img-top" alt="...">
                         <div class="card-body bg-card3 text-center">
-                            <h5 class="card-title">Vertical Farming</h5>
+                            <h5 class="card-title text-success">Vertical Farming</h5>
                             <p class="card-text">Continuation of an on-going project for my Masters in Automation, where we build a new small Vertical farm and we made it modular and plug and play. </p>
-                            <a href="#vf-card3.html" class="btn btn-success">Find More</a>
+                            <a href="vf-card3.html" class="btn btn-success">Find More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card border-info">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="img/other.png" class="card-img-top" alt="...">
                         <div class="card-body bg-card4 text-center">
-                            <h5 class="card-title">Other Small project</h5>
+                            <h5 class="card-title text-info">Other Small project</h5>
                             <p class="card-text">Here i show other small project i made.</p>
-                            <a href="#o-card4.html" class="btn btn-info">Find More</a>
+                            <a href="o-card4.html" class="btn btn-info">Find More</a>
                         </div>
                     </div>
                 </div>
@@ -103,19 +103,42 @@
         </div>
     </section>
 
-    <!-- Contact -->
 
-    <section class="p-5">
+    <!-- About Me -->
+
+    <section id="aboutme" class="bg-card1 p-5">
         <div class="container">
-            <div class="row g-4">
+            <div class="row align-items-center justify-content-between">
                 <div class="col-md">
-                    <h2 class="text-center mb-4"> Contact Info</h2>
-                    <i class="bi-telephone"></i>
-                    <p class="text-center">(+351)925596960</p>
+                    <div class="me-img-container">
+                        <img src="img/me_contact_2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-md p-5">
+                    <h2 class="text-oil-blue text-center"> About Me</h2>
+                    <p class="lead text-oil-blue">
+                        I'm a fifth year master student of Control Robotics Autumation Systems.
+                    </p>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact" class="p-5 bg-light-yellow">
+        <div class="container text-center">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="me-3">
+                    <i class="bi-telephone"></i>
+                </div>
+                <div>
+                    <h2 class="mb-4">Contact Info</h2>
+                    <p>(+351) 00000000</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
