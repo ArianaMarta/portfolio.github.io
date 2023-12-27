@@ -13,13 +13,15 @@ $custom-them-colors: (
     "dark-purple" : rgba(91, 19, 122, 0.267),
     "light-green" : rgb(63, 198, 130),
     "oil-blue" : #5B8F8F,
+    "light-oil-blue" :rgb(134, 196, 196),
     "dark-oil-blue" : #6b8fa5,
     "card1" : #f6d6d6,
     "card2" : #F6F7C4,
     "card3" : #c3f7d7,
     "card4" : #b9effd,
     "darker-red" : #f96464,
-    "darker-green" : #297c49
+    "darker-green" : #297c49,
+    "lighter-yellow" : #f9f0cd
 );
 
 $theme-colors: map-merge($custom-them-colors, $theme-colors);
