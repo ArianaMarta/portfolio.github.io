@@ -1,7 +1,7 @@
 {
   "name": "portfolio.github.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "It's a website where you can see all the projects I've done or been part of.",
   "main": "index.js",
   "directories": {
     "doc": "docs"
@@ -14,5 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.2"
-  }
+  },
+  "devDependencies": {}
 }
